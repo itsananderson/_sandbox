@@ -11,20 +11,27 @@
     }
 
     function kbDown() {
+        $result.css({
+            'fontFamily': '"Courier New", Courier, monospace',
+            'color': 'black'
+        });
         try {
-            eval("result = " + $input.val());
-            if (_.isFunction(result)) {
-                $result.text(result.toString());
-            } else if (shouldDisplayRaw(result)) {
-                $result.text(result);
-            } else if (_.isUndefined(result)) {
+            var evalResult = eval($input.val());
+            if (_.isFunction(evalResult)) {
+                $result.text(evalResult.toString());
+            } else if (shouldDisplayRaw(evalResult)) {
+                $result.text('' + evalResult);
+            } else if (_.isUndefined(evalResult)) {
                 $result.text('undefined');
-            } else if (_.isNull(result)) {
+            } else if (_.isNull(evalResult)) {
                 $result.text('null');
+            } else if (evalResult instanceof HTMLElement) {
+                $result.css('fontFamily', 'inherit');
+                $result.text('');
+                $result.append(evalResult);
             } else {
-                $result.text(JSON.stringify(result, null, 4));
+                $result.text(JSON.stringify(evalResult, null, 2));
             }
-            $result.css('color', 'black');
         } catch(e) {
             $result.text(e);
             $result.css('color', 'red');
