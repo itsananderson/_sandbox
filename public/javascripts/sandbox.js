@@ -25,10 +25,10 @@
                 $result.text('undefined');
             } else if (_.isNull(evalResult)) {
                 $result.text('null');
-            } else if (evalResult instanceof HTMLElement) {
+            } else if (evalResult instanceof HTMLElement || evalResult instanceof jQuery) {
                 $result.css('fontFamily', 'inherit');
                 $result.text('');
-                $result.append(evalResult);
+                $result.append($(evalResult).clone());
             } else {
                 $result.text(JSON.stringify(evalResult, null, 2));
             }
