@@ -6,12 +6,12 @@ html {
 
 body {
     width: 100%;
-    height: 96%;
+    height: 100%;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 header {
-    height: 8%;
+    height: 49px;
     width: 100%;
     border-bottom: 1px solid black;
 }
@@ -19,24 +19,25 @@ header {
 header h1 {
     text-align: center;
     font-size: 2em;
-    margin: 1%;
 }
 
 .input {
     width: 98%;
-    height: 8%;
-    padding: 1%;
+    display: block;
+    height: 49px;
+    padding: 10px 1%;
     font-size: 20px;
     border: 0;
     border-bottom: 1px solid black;
 }
 
 .result {
+    position: absolute;
     font-family: "Courier New", Courier, monospace;
+    top: 120px;
+    bottom: 0;
     width: 98%;
     padding: 1%;
-    height: 76%;
-    border: 1px solid black;
     border-left-width: 0;
     border-right-width: 0;
     overflow: auto;

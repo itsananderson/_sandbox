@@ -31,8 +31,7 @@
         }
     }
 
-    function kbUp(a, b, c) {
-    }
+    function kbUp(a, b, c) {}
 
     kb.on('enter', kbDown, kbUp);
 })(window, jQuery, KeyboardJS, _.noConflict(), _);
