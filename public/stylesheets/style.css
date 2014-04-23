@@ -1,0 +1,43 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    width: 100%;
+    height: 96%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 8%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 1%;
+}
+
+.input {
+    width: 98%;
+    height: 8%;
+    padding: 1%;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.result {
+    font-family: "Courier New", Courier, monospace;
+    width: 98%;
+    padding: 1%;
+    height: 76%;
+    border: 1px solid black;
+    border-left-width: 0;
+    border-right-width: 0;
+    overflow: auto;
+}
