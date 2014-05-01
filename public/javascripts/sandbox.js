@@ -1,13 +1,13 @@
-(function(window, $, kb, lodash, underscore, _) {
+(function(window, $, kb, _) {
     var $input = $('.input');
     var $result = $('.result');
 
     $input.focus();
 
     function shouldDisplayRaw(result) {
-        return lodash.isNaN(result)
-            || lodash.isNumber(result)
-            || lodash.isString(result);
+        return _.isNaN(result)
+            || _.isNumber(result)
+            || _.isString(result);
     }
 
     function kbDown() {
@@ -17,13 +17,13 @@
         });
         try {
             var evalResult = eval($input.val());
-            if (lodash.isFunction(evalResult)) {
+            if (_.isFunction(evalResult)) {
                 $result.text(evalResult.toString());
             } else if (shouldDisplayRaw(evalResult)) {
                 $result.text('' + evalResult);
-            } else if (lodash.isUndefined(evalResult)) {
+            } else if (_.isUndefined(evalResult)) {
                 $result.text('undefined');
-            } else if (lodash.isNull(evalResult)) {
+            } else if (_.isNull(evalResult)) {
                 $result.text('null');
             } else if (evalResult instanceof HTMLElement || evalResult instanceof jQuery) {
                 $result.css('fontFamily', 'inherit');
@@ -42,4 +42,4 @@
     function kbUp(a, b, c) {}
 
     kb.on('ctrl, enter', kbDown, kbUp);
-})(window, jQuery, KeyboardJS, _.noConflict(), _, "Try '_ = lodash' or '_ = underscore'");
+})(window, jQuery, KeyboardJS, _);
