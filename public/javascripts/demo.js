@@ -45,20 +45,20 @@ articles = [
     {
         "body": "Not long after a typically underwhelming showing by the British contingent at the Wimbledon championships in July, the British Journal of Sports Medicine published the results of a study that suggested to beleaguered English tennis fans that things are only going to get worse. In the study, researchers from the Royal National Orthopaedic Hospital",
         "byline": "By GRETCHEN REYNOLDS",
-        "date": "20071028",
+        "date": "20071020",
         "title": "PHYS ED; Twist and Ouch",
         "url": "http:\/\/www.nytimes.com\/2007\/10\/28\/sports\/playmagazine\/28physed.html"
     },
     {
         "body": "''Dead Man in Paradise: Unraveling a Murder From a Time of Revolution'' By J. B. MacKinnon The New Press, 261 pages, $24.95 hardcover Every tourist to the Caribbean glimpses on the way from the harbor to the resorts a less-than-sunny side to island life. But not many beachcombers from up north will ever know firsthand the many layers of poverty and",
         "byline": "By RICHARD B. WOODWARD",
-        "date": "20071028",
+        "date": "20071022",
         "title": "Armchair Traveler",
         "url": "http:\/\/travel.nytimes.com\/2007\/10\/28\/travel\/28armchair.html"
     },
     {
         "body": "COMEDY HASBROUCK HEIGHTS Bananas Comedy Club Joey Kola, stand-up. Friday at 9:30 p.m.; Nov. 3 at 8 and 10:30 p.m. $15 to $17.50. Bananas Comedy Club, 283 Route 17 South. (201) 727-1090; www.bananascomedyclub.com. RED BANK Count Basie Theater ''Last Comic Standing Live,'' featuring the final five contestants: Jon Reep, Lavell Crawford, Gerry Dee,",
-        "date": "20071028",
+        "date": "20071024",
         "title": "NEW JERSEY; CALENDAR",
         "url": "http:\/\/query.nytimes.com\/gst\/fullpage.html?res=9E03E5DE163EF93BA15753C1A9619C8B63"
     },
@@ -115,7 +115,7 @@ articles = [
     {
         "body": "HE HAD IT COMING How to Outsmart Your Husband and Win Your Divorce. By Stacy Schneider. 224 pp. Simon Spotlight Entertainment. $14.95. THE ART OF CHEATING A Nasty Little Book for Tricky Little Schemers and Their Hapless Victims. By Jessica Dorfman Jones. 320 pp. Pocket Books. $14.95. YOU'D better not pout, you'd better not cry, you'd better not",
         "byline": "By LIESL SCHILLINGER",
-        "date": "20071223",
+        "date": "20071224",
         "title": "BOOKS OF STYLE; Playing Fair at Divorce, Cheating on the Other Stuff",
         "url": "http:\/\/www.nytimes.com\/2007\/12\/23\/fashion\/23books.html"
     },
@@ -127,27 +127,27 @@ articles = [
     },
     {
         "body": "Rankings reflect sales, for the week ended Dec. 8, at many thousands of venues where a wide range of general interest books are sold nationwide. These include hundreds of independent book retailers (statistically weighted to represent all such outlets); national, regional and local chains; online and multimedia entertainment retailers; university,",
-        "date": "20071223",
+        "date": "20071225",
         "title": "CHILDREN'S BEST SELLERS: PAPERBACK BOOKS: Sunday, December 23rd 2007",
         "url": "http:\/\/query.nytimes.com\/gst\/fullpage.html?res=9A01E7D61F3AF930A15751C1A9619C8B63"
     },
     {
         "body": "Rankings reflect sales, for the week ending Dec. 8, at many thousands of venues where a wide range of general interest books are sold nationwide. These include hundreds of independent book retailers (statistically weighted to represent all such outlets); national, regional and local chains; online and multimedia entertainment retailers; university,",
-        "date": "20071223",
+        "date": "20071228",
         "title": "BEST SELLERS: NONFICTION: Sunday, December 23rd 2007",
         "url": "http:\/\/query.nytimes.com\/gst\/fullpage.html?res=9D02E0D6123AF930A15751C1A9619C8B63"
     },
     {
         "body": "DARK MATTER: The British writer Philip Pullman isn't exactly a come-from-nowhere phenomenon -- his giddy fantasy series ''His Dark Materials'' has sold millions of copies worldwide and garnered praise from critics for years. In 2002, Margo Jefferson rhapsodized about the series in an essay for The Times, headlined ''Harry Potter for Grown-Ups'':",
         "byline": "By GREGORY COWLES",
-        "date": "20071223",
+        "date": "20071230",
         "title": "TBR; TBR: Inside the List",
         "url": "http:\/\/www.nytimes.com\/2007\/12\/23\/books\/review\/23tbr.html"
     },
     {
         "body": "Imagine, if you care to, a high school stage packed with fresh-scrubbed Oklahoma teenagers, shrilly belting out a ballad of tribute to a woman of mystery whose passions they can't conceive, whose name they can scarcely pronounce: ''Mata Hari, Mata Hari -- oh what a wicked girl was she! That's the kind of girl I'll never be!'' What were her crimes?",
         "byline": "By LIESL SCHILLINGER",
-        "date": "20071223",
+        "date": "20071250",
         "title": "Sleeping With the Enemy",
         "url": "http:\/\/www.nytimes.com\/2007\/12\/23\/books\/review\/Schillinger-t.html"
     },
