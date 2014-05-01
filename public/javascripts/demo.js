@@ -36,9 +36,9 @@ function module3() {
 }
 
 people = [
-    { 'name': 'alice', 'evil': false },
-    { 'name': 'bob', 'evil': false },
-    { 'name': 'eve', 'evil': true }
+    { 'name': 'alice', 'evil': false, 'rank' : 63 },
+    { 'name': 'bob', 'evil': false, 'rank' : 62 },
+    { 'name': 'eve', 'evil': true, 'rank' : 61 }
 ];
 
 articles = [
