@@ -1,0 +1,79 @@
+people
+
+_.first(people)
+
+_.first(people, 2)
+
+_.last(people)
+
+_.map(people, function(p) { return p.name })
+
+_.pluck(people, 'name')
+
+_.filter(people, function(p) { return p.evil })
+
+_.where(people, {evil: true})
+
+_.max(people, 'rank')
+
+_.max(people, function(p) { return -p.rank })
+
+_(people)
+
+_(people).value()
+
+_(people).rest().pluck('name').value()
+
+_(people).pluck('rank').reduce(function(sum, rank) { return sum + rank })
+
+articles
+
+articles.length
+
+_(articles).where({date: "20071223"}).value()
+
+_(articles).filter(function(a) { return a.date >= 20071027 }).value()
+
+_(articles).sortBy(function(a) { return a.title }).pluck('title').value()
+
+_(articles).sortBy(function(a) { return a.date }).pluck('title').value()
+
+_(articles).sortBy(function(a) { return a.date }).map(function(a) { return a.title + " - " + a.date}).value()
+
+_(articles).pluck('date').max().value()
+
+_(articles).pluck('date').min().value()
+
+add = function(a, b) { return a + b}
+
+add1 = _.curry(add)(1)
+
+add1(2)
+
+_.range
+
+_.after
+
+_.once
+
+_.throttle
+
+_.wrap
+
+_.isArguments
+_.isArray
+_.isBoolean
+_.isDate
+_.isElement
+_.isEmpty
+_.isEqual
+_.isFinite
+_.isFunction
+_.isNaN
+_.isNull
+_.isNumber
+_.isObject
+_.isPlainObject
+_.isRegExp
+_.isString
+_.isUndefined
