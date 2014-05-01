@@ -51,9 +51,3 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
-
-// Invoke startup script if called directly
-if (!module.parent) {
-    require('./bin/www');
-    return;
-}
